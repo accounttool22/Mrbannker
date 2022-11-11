@@ -97,7 +97,7 @@ async def info(message: types.Message):
 <b>FIRSTNAME:</b> {first}
 <b>BOT:</b> {is_bot}
 <b>BOT-OWNER:</b> {await is_owner(user_id)}
-╘═════════''')
+╘═════════''') Bot By @Nsyi_Python
 
 
 @dp.message_handler(commands=['bin'], commands_prefix=PREFIX)
@@ -125,7 +125,7 @@ Country⇢ <u>{r["country"]}({r["code"]})[{r["flag"]}]</u>
 SENDER: <a href="tg://user?id={ID}">{FIRST}</a>
 BOT⇢ @{BOT_USERNAME}
 OWNER⇢ <a href="tg://user?id={OWNER}">LINK</a>
-'''
+''' Bot By @Nati_Python
     await message.reply(INFO)
 
 
